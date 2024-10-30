@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "outfit";
+    src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "young-serif";
+    src: url("../fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+
+* {
+    padding: unset;
+    margin: unset;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    min-width: 360px;
+    max-width: 600px;
+    background-color: #fff;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container .textC {
+    padding: 30px;
+}
+
+.container .textC h1,
+.container .textC h2 {
+    font-family: young-serif , serif;
+}
+
+
+.container .textC h1 {
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.container .textC p {
+    font-family: "outfit";
+    color: hsl(24, 5%, 18%);
+    font-weight: 300;
+}
+
+.container .textC p:nth-of-type(1) {
+    margin-bottom: 30px;
+}
+
+.container .textC h2 {
+    color : hsl(14, 45%, 36%);
+    font-weight: lighter;
+}
+
+
+.container .textC ul {
+    list-style-position: outside;
+    margin-left: 20px;
+}
+
+
+.container .textC .time {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.container .textC .time h3 {
+    font-family: outfit , sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.container .textC ul li {
+    font-family: outfit , sans-serif;
+}
+
+.container .textC ul li p{
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+
+.container .textC .time ul li {
+    margin-bottom: 20px;
+}
+
+.container .textC .time ul li span {
+    font-weight: 600;
+}
+
+
+.container .textC .time {
+    margin-bottom: 30px;
+}
+
+
+.container .textC > h2 {
+    margin-bottom: 30px;
+}
+
+
+
+.container .textC > h2:nth-of-type(2) {
+    margin-top: 30px;
+}
+
+.container .textC > h2:nth-of-type(2) + ul {
+    list-style-type: decimal;
+}
+
+
+.container .textC > h2:nth-of-type(3) {
+    margin-top: 30px;
+}
+
+.container .textC > h2:nth-of-type(3) + p {
+    margin-bottom: 30px;
+}
+
+
+.container .textC table {
+    width: 100%;
+    justify-items: left;
+}
+
+.container .textC table tr{
+    font-family: outfit;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    display: flex;
+    padding: 10px 0px;
+}
+
+.container .textC table tr:nth-child(4){
+    border-bottom: none;
+}
+
+.container .textC table tr td {
+    width: 50%;
+}
+
+.container .textC table tr td:nth-child(2) {
+    color: hsl(14, 45%, 36%);
+}
+
+.container .textC table tr td:nth-child(1) {
+    color: hsl(30, 10%, 34%);
+} 
